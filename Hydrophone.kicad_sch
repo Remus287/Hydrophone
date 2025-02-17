@@ -50,6 +50,123 @@
 			)
 		)
 	)
+	(sheet
+		(at 16.51 83.82)
+		(size 86.36 57.15)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.3048)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "41ddbc82-b808-40e1-9858-38fc26307ff9")
+		(property "Sheetname" "USBC_Out_No_OPAMP"
+			(at 16.51 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USBC_Out_No_OPAMP.kicad_sch"
+			(at 16.51 141.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Hydrophone"
+				(path "/a7849e68-0fff-42fa-bbad-d24a7d586f8d"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 198.12 16.51)
+		(size 81.28 59.69)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.3048)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "5486ed45-2bbf-4c12-b00b-adde442ee4c6")
+		(property "Sheetname" "FET_Impedance_Converter"
+			(at 198.12 15.7222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FET_Impedance_Converter.kicad_sch"
+			(at 198.12 76.8608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Hydrophone"
+				(path "/a7849e68-0fff-42fa-bbad-d24a7d586f8d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 16.51)
+		(size 87.63 59.69)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.3048)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "f2429961-cd61-4dc4-a0ec-b0a8292e27ef")
+		(property "Sheetname" "9V_To_3.5mm_Jack"
+			(at 106.68 15.7222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "9V_To_3.5mm_Jack.kicad_sch"
+			(at 106.68 76.8608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Hydrophone"
+				(path "/a7849e68-0fff-42fa-bbad-d24a7d586f8d"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

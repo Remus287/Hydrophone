@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -132,7 +132,7 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
+        "min_text_height": 0.7,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.25,
         "min_track_width": 0.1,
@@ -498,7 +498,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 400,
     "bom_export_filename": "Manufacturing\\Hydrophone.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -579,13 +579,19 @@
           "label": "Sim.Device",
           "name": "Sim.Device",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB Part#",
+          "name": "JLCPCB Part#",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -634,6 +640,18 @@
     [
       "2b869c3d-dba8-4093-aa64-e96900da7572",
       "USBC_Out"
+    ],
+    [
+      "f2429961-cd61-4dc4-a0ec-b0a8292e27ef",
+      "9V_To_3.5mm_Jack"
+    ],
+    [
+      "5486ed45-2bbf-4c12-b00b-adde442ee4c6",
+      "FET_Impedance_Converter"
+    ],
+    [
+      "41ddbc82-b808-40e1-9858-38fc26307ff9",
+      "USBC_Out_No_OPAMP"
     ]
   ],
   "text_variables": {}

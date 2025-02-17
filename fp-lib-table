@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "PCM2912A")(type "KiCad")(uri "${KIPRJMOD}/ul_PCM2912APJTR/KiCADv6/footprints.pretty")(options "")(descr "Audio CODEC with USB Interface, Mono Microphone Input and Stereo Headphone Output  "))
   (lib (name "OPA1642AIDR")(type "KiCad")(uri "${KIPRJMOD}/ul_OPA1642AIDR/KiCADv6/footprints.pretty")(options "")(descr "Dual SoundPlus™ high-performance, JFET-input audio op amp"))
+  (lib (name "Mouse_Bites")(type "KiCad")(uri "${KIPRJMOD}/Mouse_Bites.pretty")(options "")(descr ""))
 )

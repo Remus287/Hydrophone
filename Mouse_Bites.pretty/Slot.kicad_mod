@@ -1,0 +1,89 @@
+(footprint "Slot"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a9ef4ffa-a011-4156-b575-057b702b380a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Slot"
+		(at 0 -1.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "18140c52-afb9-4480-89a3-5bea8e76cbb4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de572d8d-58c5-4e75-99d4-4bd738d3781c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "903e484e-7531-42dc-a707-35b48a847067")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ea4414d-6058-49a3-8609-d3406a09ca33")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "109f5fce-ebfa-4f34-b684-27121bf339b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole oval
+		(at 0 0.9 90)
+		(size 0.6 10)
+		(drill oval 0.6 10)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "29fa6fac-95d3-49eb-8c7c-27b6b869348f")
+	)
+)
