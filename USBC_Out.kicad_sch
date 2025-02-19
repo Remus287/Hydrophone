@@ -23434,7 +23434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "1206W4F1002T5E"
+		(property "Part Number" "0805W8F470JT5E"
 			(at 118.11 123.19 0)
 			(effects
 				(font
@@ -23443,7 +23443,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part#" "C17902"
+		(property "JLCPCB Part#" "C17714"
 			(at 118.11 123.19 0)
 			(effects
 				(font
